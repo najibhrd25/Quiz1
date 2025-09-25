@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Local Food - Portofolio Najib</title>
+  <link rel="stylesheet" href="../Asset/style.css">
+  <style>
+    html {
+      scroll-behavior: smooth; /* biar scroll halus */
+    }
+    .food-grid {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+    .food-item {
+      flex: 1 1 30%;
+      text-align: center;
+      cursor: pointer;
+    }
+    .detail-section {
+      margin-top: 3rem;
+      padding: 2rem;
+      border-top: 2px solid #ccc;
+    }
+    .detail-section h2 {
+      margin-bottom: 1rem;
+    }
+  </style>
+</head>
+<body>
+<header>
+  <nav>
+    <ul>
+      <li><a href="../HomePage/index.html">Home</a></li>
+      <li><a href="../Profile/index.html">Profile</a></li>
+      <li><a href="../HomeTown/index.html">Home Town</a></li>
+      <li><a href="index.html" class="active">Local Food</a></li>
+      <li><a href="../TouristPlace/index.html">Tourist Place</a></li>
+    </ul>
+  </nav>
+</header>
+
+  <main>
+      <section class="localfood-section">
+          <h2>Local Food</h2>
+
+          <div class="food-grid">
+              <!-- Makanan 1 -->
+              <div class="food-item">
+                  <a href="#gegok">
+                    <img src="Gegok.jpg" alt="Nasi Gegok">
+                    <h3>Nasi Gegok</h3>
+                  </a>
+              </div>
+
+              <!-- Makanan 2 -->
+              <div class="food-item">
+                  <a href="#alen">
+                    <img src="alen-alen.jpg" alt="Alen-Alen">
+                    <h3>Alen-Alen</h3>
+                  </a>
+              </div>
+
+              <!-- Makanan 3 -->
+              <div class="food-item">
+                  <a href="#madumongso">
+                    <img src="madumongso.jpg" alt="Madumongso">
+                    <h3>Madumongso</h3>
+                  </a>
+              </div>
+          </div>
+      </section>
+
+      <!-- Detail makanan -->
+      <section id="gegok" class="detail-section">
+        <h2>NASI GEGOK</h2>
+        <h3>1. Asal Usul Nama</h3>
+        <p>
+          Nama “gegok” atau “gegog” berasal dari bahasa Jawa <b>“Geneman Godong Gedhang”</b> 
+          yang berarti bungkusan daun pisang. Konon, nasi gegok pertama kali dibuat oleh para ibu 
+          di daerah pegunungan Bendungan, Trenggalek, sebagai inovasi agar bekal petani 
+          tidak cepat basi saat dibawa ke ladang.
+        </p>
+        <h3>2. Bahan & Komposisi Utama</h3>
+        <ul>
+          <li>Nasi aron (setengah matang)</li>
+          <li>Ikan kecil (teri, tuna, atau ikan asin)</li>
+          <li>Sambal pedas sederhana (cabai, bawang, garam, gula)</li>
+          <li>Daun pisang sebagai pembungkus</li>
+          <li>Opsional: santan atau kelapa parut</li>
+        </ul>
+        <h3>3. Cita Rasa & Karakteristik</h3>
+        <p>
+          Gurih pedas dengan aroma harum daun pisang. Teksturnya padat namun tetap pulen 
+          karena proses aron lalu kukus ulang. Saat hangat, aroma dan rasa lebih kuat; 
+          saat dingin, rasa makin pekat.
+        </p>
+        <h3>4. Fungsi & Keunikan Sosial</h3>
+        <p>
+          Nasi gegok dikenal sebagai bekal praktis, murah, dan mengenyangkan. 
+          Bungkus daun pisangnya ramah lingkungan sekaligus menambah cita rasa. 
+          Kini jadi kuliner khas Trenggalek yang sering dijadikan oleh-oleh 
+          dan identitas daerah.
+        </p>
+      </section>
+
+      <section id="alen" class="detail-section">
+        <h2>ALEN - ALEN</h2>
+        <h3>1. Asal Usul Nama</h3>
+        <p>
+          Nama “alen-alen” berasal dari kata Jawa <b>“ali-ali”</b> yang berarti cincin. 
+          Bentuk camilan ini memang bulat menyerupai cincin kecil. 
+          Awalnya dibuat sebagai camilan sederhana untuk suguhan keluarga 
+          dan tetangga di desa-desa Trenggalek.
+        </p>
+        <h3>2. Bahan & Komposisi Utama</h3>
+        <ul>
+          <li>Singkong (parut/haluskan)</li>
+          <li>Tepung tapioka</li>
+          <li>Bumbu sederhana (garam, bawang putih, kadang ketumbar)</li>
+          <li>Minyak untuk menggoreng</li>
+        </ul>
+        <h3>3. Cita Rasa & Karakteristik</h3>
+        <p>
+          Renyah, gurih, dan ringan. Aromanya khas singkong goreng dengan bumbu sederhana. 
+          Kini hadir juga varian rasa modern seperti balado, pedas manis, atau jagung manis.
+        </p>
+        <h3>4. Fungsi & Keunikan Sosial</h3>
+        <p>
+          Alen-alen sering jadi camilan keluarga, suguhan tamu, hingga oleh-oleh khas Trenggalek. 
+          Bentuknya yang unik dan ringan membuatnya mudah disukai lintas generasi, 
+          sekaligus jadi identitas jajanan khas daerah.
+        </p>
+      </section>
+
+      <section id="madumongso" class="detail-section">
+        <h2>MADUMONGSO</h2>
+        <h3>1. Asal Usul Nama</h3>
+        <p>
+          Nama “madumongso” berasal dari kata Jawa: <b>“madu”</b> (manis) dan <b>“mongso”</b> (masa/musim), 
+          yang melambangkan makanan manis yang bisa dinikmati kapan saja. 
+          Kudapan ini sudah lama jadi sajian khas pada acara hajatan dan perayaan di Trenggalek.
+        </p>
+        <h3>2. Bahan & Komposisi Utama</h3>
+        <ul>
+          <li>Tape ketan hitam</li>
+          <li>Gula merah atau gula kelapa</li>
+          <li>Santan kelapa</li>
+          <li>Daun pisang atau kertas minyak untuk membungkus</li>
+        </ul>
+        <h3>3. Cita Rasa & Karakteristik</h3>
+        <p>
+          Rasa manis legit bercampur sedikit asam segar dari tape, berpadu dengan gurihnya santan. 
+          Teksturnya kenyal, agak lengket, dan berwarna kehitaman. 
+          Bungkus kertas warna-warni membuatnya tampak meriah seperti permen tradisional.
+        </p>
+        <h3>4. Fungsi & Keunikan Sosial</h3>
+        <p>
+          Madumongso identik dengan suguhan khas di acara hajatan, lebaran, atau syukuran. 
+          Selain itu, ia juga jadi oleh-oleh khas Trenggalek yang melambangkan 
+          keramahan tuan rumah dan kebersamaan.
+        </p>
+      </section>
+  </main>
+  <script src="../Asset/script.js"></script>
+
+</body>
+</html>
