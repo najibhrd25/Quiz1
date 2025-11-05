@@ -234,6 +234,7 @@ section {
   border-radius: 50%;
   object-fit: cover;
   border: 1px solid var(--primary-color);
+  margin-top: 4rem;
   margin-bottom: 0rem;
 }
 .intro h2 { font-size: 4rem; margin-top: 0; margin-bottom: 0.1rem; }
